@@ -12,5 +12,8 @@ public class Car {
         this.price = price;
         this.isSold = true;
     }
+    void secondHand (){
+        System.out.println("Done - Not New: " + this.isSold);
+    }
     
 }
