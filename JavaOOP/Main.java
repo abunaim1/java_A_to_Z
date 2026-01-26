@@ -27,5 +27,23 @@ public class Main {
         System.out.println(test3.name);
         System.out.println(test3.age);
 
+
+
+        // Static Keyword Class (From Friend class)
+        Friend fr1 = new Friend("Mahfuz");
+        Friend fr2 = new Friend("Name");
+
+        System.out.println("*********");
+        System.out.println(Friend.numOfFriends);
+
+
+
+        System.out.println("Inheritence ---> *********");
+        Cat cat = new Cat();
+        Dog dog = new Dog();
+
+        System.out.println(cat.isAlive);
+        System.out.println(dog.isAlive);
+
     }
 }
