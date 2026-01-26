@@ -45,5 +45,19 @@ public class Main {
         System.out.println(cat.isAlive);
         System.out.println(dog.isAlive);
 
+        System.out.println("Super Keywor Use ---> *********");
+        Person p1 = new Person("Mahfuz", "Zenun");
+        Student s1 = new Student("Naim", "Abu", 3.22);
+
+        s1.displayStudent();
+
+        Employee e1 = new Employee("Ashik Bhai", "Nayem Bhai", 1000000);
+        e1.displayEmployee();
+
+
+        System.out.println("ToString OVerride uses ---> *********");
+        ToStringOverride t1 = new ToStringOverride("naim", 21);
+        System.out.println(t1);
+
     }
 }
